@@ -1,0 +1,47 @@
+# 👋 Quentin Guillerey
+**Operations Leader • AI‑Augmented Workflows • Python Automation • Ex‑FinTech Founder**
+
+[![Website](https://img.shields.io/badge/contact-email-blue)](mailto:guillerey.finance@gmail.com) [![LinkedIn](https://img.shields.io/badge/linkedin-quentin--guillerey-blue)](https://www.linkedin.com/in/quentin-guillerey)
+
+I design and build AI-augmented automation for customer operations. I combine product, ops, and engineering experience to deliver tools that reduce manual work, improve resolution times, and keep systems compliant at scale.
+
+## What I do
+- Build AI‑powered customer service tools to scale operations and reduce repetitive work.
+- Lead global customer operations for Fortune 500 accounts.
+- Design automation pipelines and lightweight ML/NLP integrations using Python (Flask, Pandas, NLP).
+
+## Key projects
+| Project | Tech stack | Short description |
+|---|---:|---|
+| [CSR Automation Toolkit](https://github.com/Quentin-Guillerey/csr-automation-toolkit) | Python, Flask, NLP | AI-powered automation for common support workflows. |
+| [Resolva](https://github.com/Quentin-Guillerey/resolva) | Python, Flask | Self-maintaining knowledge base for support teams. |
+| [Automated Compliance Checker](https://github.com/Quentin-Guillerey/compliance-checker) | Python, Pandas | Streamlines regulatory document verification and checks. |
+
+(Consider adding 1–2 lines or a screenshot for each repo to show impact — e.g., time saved, users supported, or accuracy improvements.)
+
+## Quickstart
+Clone a project and install dependencies (example):
+```bash
+git clone https://github.com/Quentin-Guillerey/csr-automation-toolkit.git
+cd csr-automation-toolkit
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+# update .env / config as needed, then:
+flask run
+```
+
+## Typical use cases
+- Automating routine ticket triage and routing
+- Auto‑summaries and suggested replies for CSRs
+- Knowledge base maintenance and relevance scoring
+- Compliance checks and data validation pipelines
+
+## Want to collaborate?
+I'm open to product advisory, partnerships, and scaled automation projects. Email: guillerey.finance@gmail.com — or connect on [LinkedIn](https://www.linkedin.com/in/quentin-guillerey).
+
+## Fun fact
+I taught myself Python to automate my own workflows — now I build tools so others can do the same.
+
+---
+If you’d like, I can add badges (CI, license, language), a short demo GIF or screenshots, or commit this README directly to a repo — tell me the repository owner/name and the target branch and I’ll push it.
