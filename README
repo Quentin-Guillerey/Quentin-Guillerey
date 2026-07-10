@@ -1,23 +1,54 @@
 # 👋 Quentin Guillerey
 **Operations Leader • AI-Augmented Workflows • Python Automation • Ex-FinTech Founder**
 
+[![Website](https://img.shields.io/badge/contact-email-blue)](mailto:guillerey.finance@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-quentin--guillerey-blue)](https://www.linkedin.com/in/quentin-guillerey)
 [![GitHub](https://img.shields.io/badge/github-Quentin--Guillerey-black)](https://github.com/Quentin-Guillerey)
 
-I design and build **AI-augmented automation** for customer operations. I combine **product, ops, and engineering** experience to deliver tools that **reduce manual work, improve resolution times, and keep systems compliant at scale**.
+I design and build **AI-augmented automation** to streamline customer operations. With a background in **product, ops, and engineering**, I create tools that **reduce manual work, improve resolution times, and ensure compliance at scale**.
 
 ---
 
 ## 🚀 What I Do
-- Build **AI-powered customer service tools** to scale operations and reduce repetitive work.
-- Lead **global customer operations** for Fortune 500 accounts.
-- Design **automation pipelines and lightweight ML/NLP integrations** using Python (Flask, Pandas, NLP).
+- **AI-powered customer service tools** to scale operations and eliminate repetitive tasks.
+- **Global customer operations leadership** for Fortune 500 accounts.
+- **Automation pipelines and lightweight ML/NLP integrations** using Python (Flask, Pandas, NLP).
 
 ---
 
 ## 🔑 Key Projects
-| Project | Tech Stack | Impact |
-|---------|------------|--------|
-| **[CSR Automation Toolkit](https://github.com/Quentin-Guillerey/csr-automation-toolkit)** | Python, Flask, NLP | **Reduces response time by 30%** and improves consistency for 40+ agents. |
-| **[Resolva](https://github.com/Quentin-Guillerey/resolva)** | Python, Flask | **Self-maintaining knowledge base** that cuts ticket review time by **40%**. |
-| **[Automated Compliance Checker](https://github.com/Quentin-Guillerey/compliance-checker)** | Python, Pandas | **Streamlines regulatory document verification**, ensuring 100% compliance. |
+
+| Project | Tech Stack |
+|---------|------------|
+| **[CSR Automation Toolkit](https://github.com/Quentin-Guillerey/csr-automation-toolkit)** | Python, Flask, NLP |
+| **[Resolva](https://github.com/Quentin-Guillerey/resolva)** | Python, Flask |
+| **[Automated Compliance Checker](https://github.com/Quentin-Guillerey/compliance-checker)** | Python, Pandas |
+
+---
+## ⚡ Quickstart
+Clone a project and install dependencies (example):
+```bash
+git clone https://github.com/Quentin-Guillerey/csr-automation-toolkit.git
+cd csr-automation-toolkit
+python -m venv .venv
+source .venv/bin/activate  # or `.\.venv\Scripts\activate` on Windows
+pip install -r requirements.txt
+# Update .env / config as needed, then:
+flask run
+
+💡 Typical Use Cases
+
+Automating routine ticket triage and routing
+Auto-summaries and suggested replies for CSRs
+Knowledge base maintenance and relevance scoring
+Compliance checks and data validation pipelines
+🤝 Want to Collaborate?
+
+I'm open to product advisory, partnerships, and scaled automation projects.
+📧 Email: guillerey.finance@gmail.com
+🔗 LinkedIn: linkedin.com/in/quentin-guillerey
+
+🎯 Fun Fact
+
+I taught myself Python to automate my own workflows—now I build tools so others can do the same.
+
