@@ -6,7 +6,7 @@
 
 I run U.S. and Canada customer operations for the world leader in robotic mowing: service delivery, escalations, QA, and client coordination. Before that I founded and scaled a regulated mortgage brokerage in France to more than 250M€ in originations.
 
-The repositories here are personal projects, built on my own time and on sanitized or generic data. None of them are deployed on a client account. I am not a software engineer. I specify, pressure test, and verify, and I know the operations problem well enough to say exactly what the software has to do.
+The repositories here are personal projects, built on my own time, on synthetic or mock data. None of them are deployed on a client account. Each README states plainly what is verified, what is manual, and what is not proven yet, because a prototype that overstates itself is worse than no prototype. I am not a software engineer. I specify, pressure test, and verify, and I know the operations problem well enough to say exactly what the software has to do.
 
 ---
 
@@ -24,19 +24,19 @@ The repositories here are personal projects, built on my own time and on sanitiz
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| **[AISCORE](https://github.com/Quentin-Guillerey/AISCORE)** | QA scoring engine for contact-center interactions. Weighted rubric scoring, with every criterion explicitly classified as rule-based, model-based, or not automatable, and human override on anything touching compliance. | FastAPI, PostgreSQL | Early build, sanitized demo data |
-| **[Resolva](https://github.com/Quentin-Guillerey/resolva)** | Self-maintaining knowledge base. Converts resolved tickets into structured entries, auto-publishes routine cases, routes legal and cross-team cases to a human reviewer, logs an audit entry on every publish. Customers referenced by internal ID kept separate from the CRM. | Claude API, Flask, SQLite | Early build, core workflow end to end |
+| **[AISCORE](https://github.com/Quentin-Guillerey/AISCORE)** | QA scoring engine for contact-center interactions. 14 weighted criteria scoped by channel, each carrying an explicit automation method (rule-based, model-based, or not automatable). Compliance violations override the base score rather than blending into it, and unrecoverable results are held for human review. | FastAPI, PostgreSQL, 55 tests in CI | Prototype, mock and manually entered data |
+| **[Resolva](https://github.com/Quentin-Guillerey/Resolva)** | Self-maintaining knowledge base. Converts resolved tickets into plain-language entries any department can read, auto-publishes only routine IT-closed cases, and holds anything cross-departmental, management-involved, or legal-adjacent for SME review. Every legal-touching case is reviewed, enforced by a test. CRM ids are converted one-way to internal account numbers and discarded. | Claude API, Flask, SQLite, CSV audit log | Prototype, synthetic sanitized demo data |
 | **[CSR Automation Toolkit](https://github.com/Quentin-Guillerey/csr-automation-toolkit)** | Query routing prototype. Rule-based classifier first, with an optional model fallback constrained to selecting one entry ID from a known catalogue. Editable response validation before send, hardened CSV audit log. | Python, Tkinter, pytest | Working prototype, not deployed |
 
 ---
 
 ## 💡 The through-line
 
-Every one of these puts a human at the decision point.
+Every one of these puts a human at the decision point, and each draws the line somewhere specific.
 
-The CSR toolkit separates generating a response from sending one, and logs whether the agent edited it. Resolva publishes routine entries automatically but routes anything legal or cross-team to a reviewer first. AISCORE refuses to score criteria it classifies as not automatable, and requires a logged human override on compliance failures.
+The CSR toolkit separates generating a response from sending one, and logs whether the agent edited it. Resolva auto-publishes only routine IT-closed tickets and holds every legal-touching case for SME review, with a test that fails the build if that ever stops being true. AISCORE draws its gate on recoverability rather than severity: a capped score publishes because the detail survives for audit, a zeroed score is held for a person because nothing is left to inspect.
 
-Automation is for efficiency. It is not for decisions. In a regulated operation, the approval and the accountability stay with people, and that is not a feature you add later.
+Automation is for efficiency. It is not for decisions. In a regulated operation the approval and the accountability stay with people, and that is not a feature you add later.
 
 ---
 
