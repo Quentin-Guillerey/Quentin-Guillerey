@@ -2,7 +2,7 @@
 
 **Customer Experience Manager · Support Operations & Order-to-Cash · Bilingual FR/EN**
 
-[![Email](https://img.shields.io/badge/email-guillerey.finance%40gmail.com-blue)](mailto:guillerey.finance@gmail.com) [![LinkedIn](https://img.shields.io/badge/linkedin-quentinguillerey-blue)](https://www.linkedin.com/in/quentinguillerey)
+[![Email](https://img.shields.io/badge/email-guillerey.finance%40gmail.com-blue)](mailto:guillerey.finance@gmail.com) [![LinkedIn](https://img.shields.io/badge/linkedin-quentin-guillerey-blue)](https://www.linkedin.com/in/quentinguillerey)
 
 I run the U.S. customer support team for a global leader in consumer robotics: order management, returns and RMAs, refunds, billing issues, SLAs and escalations. Before that I founded and ran Guillerey Finance SARL, a regulated mortgage and insurance brokerage in Lyon, France, for eight years and €250M+ in originations.
 
