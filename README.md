@@ -20,3 +20,9 @@ The repositories here are personal projects, built on my own time, on synthetic 
 - Founded and ran a regulated brokerage: €250M+ originated, full P&L, KYC and AML ownership.
 
 ---
+
+## 🤝 Contact
+
+Open to Customer Experience Manager, Customer Support Manager and Customer Operations roles, remote U.S. or Columbia, MO.
+
+📧 guillerey.finance@gmail.com 🔗 [linkedin.com/in/quentin-guillerey](https://www.linkedin.com/in/quentin-guillerey)
